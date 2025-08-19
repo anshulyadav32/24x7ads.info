@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Testing Dashboard - 24x7ads.info</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .test-link { margin: 5px 0; }
+        .test-link a { text-decoration: none; padding: 8px 12px; border-radius: 4px; display: inline-block; margin: 2px; }
+        .test-link a:hover { background-color: #f8f9fa; }
+        .section-header { color: #0d6efd; margin-top: 30px; margin-bottom: 15px; }
+        .status { font-size: 12px; padding: 2px 6px; border-radius: 3px; margin-left: 8px; }
+        .status.working { background-color: #d4edda; color: #155724; }
+        .status.error { background-color: #f8d7da; color: #721c24; }
+    </style>
+</head>
+<body>
+    <div class="container my-5">
+        <h1 class="text-center mb-4"><i class="fas fa-check-circle text-success"></i> 24x7ads.info Page Testing Dashboard</h1>
+        <p class="text-center text-muted">Click on any link below to test all pages and navigation</p>
+
+        <!-- Root Pages -->
+        <h3 class="section-header"><i class="fas fa-home"></i> Root Pages</h3>
+        <div class="test-link">
+            <a href="/" class="btn btn-outline-primary"><i class="fas fa-home"></i> Homepage (Root)</a>
+        </div>
+        <div class="test-link">
+            <a href="/test-routing.php" class="btn btn-outline-info"><i class="fas fa-cog"></i> Routing Test Page</a>
+        </div>
+
+        <!-- Main Pages -->
+        <h3 class="section-header"><i class="fas fa-file-alt"></i> Main Pages</h3>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="test-link"><a href="/pages/about.php" class="btn btn-outline-secondary"><i class="fas fa-info-circle"></i> About</a></div>
+                <div class="test-link"><a href="/pages/services.php" class="btn btn-outline-secondary"><i class="fas fa-cogs"></i> Services Overview</a></div>
+                <div class="test-link"><a href="/pages/pricing.php" class="btn btn-outline-secondary"><i class="fas fa-tags"></i> Pricing</a></div>
+                <div class="test-link"><a href="/pages/portfolio-new.php" class="btn btn-outline-secondary"><i class="fas fa-briefcase"></i> Portfolio (New)</a></div>
+                <div class="test-link"><a href="/pages/portfolio.php" class="btn btn-outline-secondary"><i class="fas fa-folder"></i> Portfolio (Old)</a></div>
+                <div class="test-link"><a href="/pages/testimonials.php" class="btn btn-outline-secondary"><i class="fas fa-quote-left"></i> Testimonials</a></div>
+                <div class="test-link"><a href="/pages/blog.php" class="btn btn-outline-secondary"><i class="fas fa-blog"></i> Blog</a></div>
+            </div>
+            <div class="col-md-6">
+                <div class="test-link"><a href="/pages/contact-new.php" class="btn btn-outline-secondary"><i class="fas fa-envelope"></i> Contact (New)</a></div>
+                <div class="test-link"><a href="/pages/contact.php" class="btn btn-outline-secondary"><i class="fas fa-phone"></i> Contact (Old)</a></div>
+                <div class="test-link"><a href="/pages/careers.php" class="btn btn-outline-secondary"><i class="fas fa-briefcase"></i> Careers</a></div>
+                <div class="test-link"><a href="/pages/faq.php" class="btn btn-outline-secondary"><i class="fas fa-question-circle"></i> FAQ</a></div>
+                <div class="test-link"><a href="/pages/landing.php" class="btn btn-outline-secondary"><i class="fas fa-rocket"></i> Landing Page</a></div>
+                <div class="test-link"><a href="/pages/privacy-policy.php" class="btn btn-outline-secondary"><i class="fas fa-shield-alt"></i> Privacy Policy</a></div>
+                <div class="test-link"><a href="/pages/terms.php" class="btn btn-outline-secondary"><i class="fas fa-file-contract"></i> Terms</a></div>
+            </div>
+        </div>
+
+        <!-- Service Pages -->
+        <h3 class="section-header"><i class="fas fa-tools"></i> Service Pages</h3>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="test-link"><a href="/services/seo.php" class="btn btn-outline-success"><i class="fas fa-search"></i> SEO Optimization</a></div>
+                <div class="test-link"><a href="/services/paid-media.php" class="btn btn-outline-success"><i class="fas fa-mouse-pointer"></i> Paid Media</a></div>
+            </div>
+            <div class="col-md-6">
+                <div class="test-link"><a href="/services/creative-cro.php" class="btn btn-outline-success"><i class="fas fa-paint-brush"></i> Creative & CRO</a> <span class="status error">May not exist</span></div>
+                <div class="test-link"><a href="/services/web-design.php" class="btn btn-outline-success"><i class="fas fa-code"></i> Web Design</a> <span class="status error">May not exist</span></div>
+                <div class="test-link"><a href="/services/analytics.php" class="btn btn-outline-success"><i class="fas fa-chart-bar"></i> Analytics</a> <span class="status error">May not exist</span></div>
+            </div>
+        </div>
+
+        <!-- Industry Pages -->
+        <h3 class="section-header"><i class="fas fa-industry"></i> Industry Pages</h3>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="test-link"><a href="/industries/b2b-saas.php" class="btn btn-outline-warning"><i class="fas fa-building"></i> B2B/SaaS</a></div>
+            </div>
+            <div class="col-md-6">
+                <div class="test-link"><a href="/industries/ecommerce.php" class="btn btn-outline-warning"><i class="fas fa-shopping-cart"></i> eCommerce</a> <span class="status error">May not exist</span></div>
+                <div class="test-link"><a href="/industries/healthcare.php" class="btn btn-outline-warning"><i class="fas fa-heartbeat"></i> Healthcare</a> <span class="status error">May not exist</span></div>
+                <div class="test-link"><a href="/industries/finance.php" class="btn btn-outline-warning"><i class="fas fa-dollar-sign"></i> Finance</a> <span class="status error">May not exist</span></div>
+                <div class="test-link"><a href="/industries/cpg-food.php" class="btn btn-outline-warning"><i class="fas fa-apple-alt"></i> CPG/Food</a> <span class="status error">May not exist</span></div>
+            </div>
+        </div>
+
+        <!-- Resource Pages -->
+        <h3 class="section-header"><i class="fas fa-book"></i> Resource Pages</h3>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="test-link"><a href="/resources/tools.php" class="btn btn-outline-info"><i class="fas fa-wrench"></i> Free Tools</a></div>
+            </div>
+            <div class="col-md-6">
+                <div class="test-link"><a href="/resources/guides.php" class="btn btn-outline-info"><i class="fas fa-book-open"></i> Guides</a> <span class="status error">May not exist</span></div>
+                <div class="test-link"><a href="/resources/webinars.php" class="btn btn-outline-info"><i class="fas fa-video"></i> Webinars</a> <span class="status error">May not exist</span></div>
+                <div class="test-link"><a href="/resources/benchmarks.php" class="btn btn-outline-info"><i class="fas fa-chart-line"></i> Reports</a> <span class="status error">May not exist</span></div>
+            </div>
+        </div>
+
+        <!-- Navigation Test -->
+        <h3 class="section-header"><i class="fas fa-compass"></i> Navigation Test</h3>
+        <div class="alert alert-info">
+            <h5><i class="fas fa-info-circle"></i> Instructions:</h5>
+            <ol>
+                <li>Click on any page link above</li>
+                <li>Once on that page, test the header navigation menu</li>
+                <li>Check if all dropdowns work properly</li>
+                <li>Verify that CSS styles load correctly</li>
+                <li>Test "Book Call" button functionality</li>
+            </ol>
+        </div>
+
+        <!-- Server Status -->
+        <div class="mt-5 text-center">
+            <div class="alert alert-success">
+                <h5><i class="fas fa-server"></i> Server Status</h5>
+                <p class="mb-0">PHP Development Server running on <strong>localhost:8000</strong></p>
+                <small class="text-muted">All links should work with the routing system</small>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
