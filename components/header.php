@@ -10,7 +10,7 @@
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Services</a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="services.php">All Services</a></li>
+            <li><a class="dropdown-item" href="pages/services.php">All Services</a></li>
             <li><hr class="dropdown-divider"></li>
             <li><a class="dropdown-item" href="services/seo.php">SEO Optimization</a></li>
             <li><a class="dropdown-item" href="services/paid-media.php">Paid Media</a></li>
@@ -33,16 +33,16 @@
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Resources</a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="blog.php">Blog</a></li>
+            <li><a class="dropdown-item" href="pages/blog.php">Blog</a></li>
             <li><a class="dropdown-item" href="resources/tools.php">Free Tools</a></li>
             <li><a class="dropdown-item" href="resources/guides.php">Guides & Templates</a></li>
             <li><a class="dropdown-item" href="resources/webinars.php">Webinars</a></li>
             <li><a class="dropdown-item" href="resources/benchmarks.php">Industry Reports</a></li>
           </ul>
         </li>
-        <li class="nav-item"><a class="nav-link" href="about.php">About</a></li>
-        <li class="nav-item"><a class="nav-link" href="pricing.php">Pricing</a></li>
-        <li class="nav-item"><a class="nav-link btn btn-outline-light ms-2" href="contact.php">Book Call</a></li>
+        <li class="nav-item"><a class="nav-link" href="pages/about.php">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="pages/pricing.php">Pricing</a></li>
+        <li class="nav-item"><a class="nav-link btn btn-outline-light ms-2" href="pages/contact-new.php">Book Call</a></li>
       </ul>
     </div>
   </div>
