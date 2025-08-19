@@ -1,0 +1,15 @@
+node_modules/
+src/
+.next/
+.DS_Store
+*.log
+*.mjs
+*.ts
+*.tsx
+*.d.ts
+package.json
+postcss.config.mjs
+tsconfig.json
+next-env.d.ts
+next.config.ts
+README.md
